@@ -1,0 +1,50 @@
+.boxConfirmed{
+  font-size: 1.5rem  ;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 2px;
+  padding: 12px;
+  border-radius: 10px;
+  border-width: px;
+  border-color: black;
+  border-style: solid;
+  font-weight: bold;
+  background-color:rgb(224, 255, 45);
+}
+
+.boxDeaths{
+  font-size: 1.5rem  ;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 2px;
+  padding: 12px;
+  border-radius: 10px;
+  border-width: px;
+  border-color: black;
+  border-style: solid;
+  font-weight: bold;
+  background-color:rgb(243, 30, 30);
+}
+
+.boxRecovered{
+  font-size: 1.5rem  ;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 2px;
+  padding: 12px;
+  border-radius: 10px;
+  border-width: px;
+  border-color: black;
+  border-style: solid;
+  font-weight: bold;
+  background-color:rgb(76, 255, 52);
+}
+
+.box{
+  display: flex;
+  align-items: left;
+  justify-content: left;
+}
