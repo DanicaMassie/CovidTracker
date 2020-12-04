@@ -23,7 +23,7 @@ const Global = () => {
   return(
 
     <div>
-    <h3>Jumlah keseluruhan</h3>
+    <h3>Jumlah kasus di dunia</h3>
     <div className = "box">
     <h1 className ="boxConfirmed">Confirmed {confirmed}</h1>
     <h1 className ="boxDeaths">Deaths {deaths}</h1>
