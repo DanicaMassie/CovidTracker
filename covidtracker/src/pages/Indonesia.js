@@ -25,9 +25,9 @@ const Indonesia = () => {
     <div>
     <h3>Jumlah kasus di Indonesia</h3>
     <div className = "box">
-    <h1 className ="boxConfirmed">Confirmed {jumlahKasus}</h1>
-    <h1 className ="boxDeaths">Deaths {meninggal}</h1>
-    <h1 className ="boxRecovered">Recovered {sembuh}</h1>
+    <h1 className ="boxConfirmed">Positif {jumlahKasus}</h1>
+    <h1 className ="boxDeaths">Meninggal {meninggal}</h1>
+    <h1 className ="boxRecovered">Sembuh {sembuh}</h1>
     </div>
     </div>
     

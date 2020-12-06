@@ -3,8 +3,8 @@
   width: 150px;
   height: 150px;
   text-align: center;
-  margin: 2px;
-  padding: 12px;
+  margin: 8px;
+  padding: 10px;
   border-radius: 10px;
   border-width: px;
   border-color: black;
@@ -18,8 +18,8 @@
   width: 150px;
   height: 150px;
   text-align: center;
-  margin: 2px;
-  padding: 12px;
+  margin: 8px;
+  padding: 10px;
   border-radius: 10px;
   border-width: px;
   border-color: black;
@@ -33,8 +33,8 @@
   width: 150px;
   height: 150px;
   text-align: center;
-  margin: 2px;
-  padding: 12px;
+  margin: 8px;
+  padding: 10px;
   border-radius: 10px;
   border-width: px;
   border-color: black;
@@ -47,4 +47,9 @@
   display: flex;
   align-items: left;
   justify-content: left;
+}
+
+.table, th, td {
+  border: 2px solid black;
+  border-collapse: collapse;
 }

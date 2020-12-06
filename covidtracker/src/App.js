@@ -23,7 +23,7 @@ const App = () =>{
                         </li>
                         <li>
                             <Link to="/perprovinsi">
-                                PerProvinsi
+                                Provinsi
                             </Link>
                         </li>
                     </ul>
