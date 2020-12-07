@@ -1,7 +1,7 @@
 import React, {useEffect, useState } from 'react';
 import axios from "axios"
 import '../App.css'
-
+import NumberFormat from 'react-number-format'
 
 const Indonesia = () => {
   const [jumlahKasus, setjumlahKasus] = useState([]);
@@ -23,7 +23,7 @@ const Indonesia = () => {
   return(
 
     <div>
-    <h3>Jumlah kasus di Indonesia</h3>
+    <h3><center>Jumlah kasus di Indonesia</center></h3>
     <div className = "box">
     <h1 className ="boxConfirmed">Positif {jumlahKasus}</h1>
     <h1 className ="boxDeaths">Meninggal {meninggal}</h1>

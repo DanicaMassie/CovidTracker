@@ -8,9 +8,9 @@ const App = () =>{
     return (
         <Router>
             <div>
-            <h1>Covid Tracker</h1>
+            <h1><center>Covid Tracker</center></h1>
                 <nav>
-                    <ul>
+                    <ul type="square">
                         <li>
                             <Link to="/global">
                                 Global
@@ -27,8 +27,9 @@ const App = () =>{
                             </Link>
                         </li>
                     </ul>
-                </nav>
+                </nav> 
             </div>
+
             <Switch>
                 <Route path="/global">
                     <Global />

@@ -1,3 +1,5 @@
+
+
 .boxConfirmed{
   font-size: 1.5rem  ;
   width: 150px;
@@ -49,7 +51,25 @@
   justify-content: left;
 }
 
-.table, th, td {
-  border: 2px solid black;
+.table {
+  border: 1px solid black;
   border-collapse: collapse;
+}
+.tablePositif{
+  border-style: double;
+  text-align: center;
+  background-color:rgb(224, 255, 45);
+  font-style: italic;
+}
+.tableMeninggal{
+  border-style: double;
+  text-align: center;
+  background-color:rgb(233, 52, 45);
+  font-style: italic;
+}
+.tableSembuh{
+  border-style: double;
+  text-align: center;
+  background-color:rgb(76, 255, 52);
+  font-style: italic;
 }
