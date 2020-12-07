@@ -24,6 +24,7 @@ const Indonesia = () => {
 
     <div>
     <h3><center>Jumlah kasus di Indonesia</center></h3>
+    <center><img src="/images/indo.jpg" alt=""/></center>
     <div className = "box">
     <h1 className ="boxConfirmed">Positif {jumlahKasus}</h1>
     <h1 className ="boxDeaths">Meninggal {meninggal}</h1>

@@ -21,9 +21,9 @@ const Global = () => {
 
 
   return(
-
     <div >
     <h3><center>Jumlah kasus di Seluruh Dunia</center></h3>
+    <center><img src="/images/global.jpg" alt=""/></center>
     <div className = "box">
     <h1 className ="boxConfirmed">Positif {confirmed}</h1>
     <h1 className ="boxDeaths">Meninggal {deaths}</h1>

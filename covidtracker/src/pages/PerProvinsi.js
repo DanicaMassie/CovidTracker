@@ -22,7 +22,8 @@ console.log (PerProvsinsi)
 
 return(
     <center>
-    <h3><center>Jumlah kasus di setiap provinsi yang</center></h3>
+    <h3><center>Jumlah kasus di setiap provinsi yang ada di Indonesia</center></h3>
+    <center><img src="/images/prov.png" alt=""/></center>
         <table border="1">
                 <tr>
                      <td><center> No. </center></td>

@@ -1,8 +1,9 @@
 body {
-
   background-color : #9df7f7;
   }
-
+img {
+  height: 170px;
+}
 .boxConfirmed{
   font-size: 1.5rem  ;
   width: 150px;
