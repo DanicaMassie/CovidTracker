@@ -22,7 +22,7 @@ const Global = () => {
 
   return(
 
-    <div>
+    <div >
     <h3><center>Jumlah kasus di Seluruh Dunia</center></h3>
     <div className = "box">
     <h1 className ="boxConfirmed">Positif {confirmed}</h1>

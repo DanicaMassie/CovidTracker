@@ -4,14 +4,14 @@ import NumberFormat from 'react-number-format'
 import '../App.css'
 
 export default function PerProvsinsi(){
-  const [PerProvsinsi, provinsiList] = useState([]);
+  const [PerProvsinsi, setProvinsi] = useState([]);
 
    
     useEffect(() => {
       axios
       .get("https://indonesia-covid-19.mathdro.id/api/provinsi")
       .then(response => {
-        provinsiList(response.data.data)
+        setProvinsi(response.data.data)
         
       })
       .catch(err => {
@@ -19,10 +19,11 @@ export default function PerProvsinsi(){
     })
     }, []);
 console.log (PerProvsinsi)
-return (
-<center>
-<h3><center>Jumlah kasus di setiap provinsi yang ada di Indonesia</center></h3>
-<table border="1">
+
+return(
+    <center>
+    <h3><center>Jumlah kasus di setiap provinsi yang</center></h3>
+        <table border="1">
                 <tr>
                      <td><center> No. </center></td>
                      <td><center> Provinsi </center></td>
@@ -34,7 +35,7 @@ return (
                 </tr>
                  {PerProvsinsi.map((item, index) => {
                   return(
-                      <tr classNames="table">
+                      <tr>
                           <td key={item.fid}><center>{index + 1}.</center></td>
                         <td><center>{item.provinsi}</center></td>
                           <td className ="tablePositif"><center><NumberFormat value={item.kasusPosi} thousandSeparator={true} displayType={'text'}/></center></td>
