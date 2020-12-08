@@ -1,5 +1,8 @@
 body {
-  background-color : #9df7f7;
+  background-color : #82ffff;
+  font-style: italic;
+  color: rgb(89, 7, 136);
+
   }
 img {
   height: 170px;
@@ -13,7 +16,7 @@ img {
   padding: 10px;
   border-radius: 10px;
   border-width: px;
-  border-color: black;
+  border-color: rgb(89, 7, 136);
   border-style: solid;
   font-weight: bold;
   background-color:rgb(224, 255, 45);
@@ -28,7 +31,7 @@ img {
   padding: 10px;
   border-radius: 10px;
   border-width: px;
-  border-color: black;
+  border-color: rgb(89, 7, 136);
   border-style: solid;
   font-weight: bold;
   background-color:rgb(243, 30, 30);
@@ -43,7 +46,7 @@ img {
   padding: 10px;
   border-radius: 10px;
   border-width: px;
-  border-color: black;
+  border-color: rgb(89, 7, 136);
   border-style: solid;
   font-weight: bold;
   background-color:rgb(76, 255, 52);
